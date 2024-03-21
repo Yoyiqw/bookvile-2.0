@@ -1,0 +1,78 @@
+.footer{
+    
+    padding-bottom: 34px;
+    margin-top: 32px;
+
+    background: #F5F5F5;
+    &__row{
+        display: flex;
+        padding-top: 27px;
+        justify-content: center;
+    }
+    &__li{
+        display: flex;
+        align-items: center;
+    }
+    &__info{
+        cursor: pointer;
+        @include font (400, 18px,#4F4F4F);
+        margin-left:  45px;
+    }
+    &__img{
+        cursor: pointer;
+        max-width: 155px;
+        height: 84px;
+    }
+    &__phone{
+        cursor: pointer;
+        @include font (500, 18px, #606060);
+        margin-left: 34px;
+    }
+    &__icon{
+        margin-right: 13px;
+    }
+}
+@media screen and (max-width:1202px) {
+    .footer{
+        &__info{
+            font-size: 15px;
+        }
+        
+        &__phone{
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .footer{
+        &__row{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__li{
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:956px) {
+    .footer{
+        &__row{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__li{
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        &__info{
+            margin: 15px 0px 0px 0px ;
+            font-size: 18px;
+        }
+        &__phone{
+            margin: 15px 0px 0px 0px;
+            font-size: 18px;
+        }   
+    }
+}

@@ -1,0 +1,157 @@
+.blog{
+    &__title{
+        @include font (300, 36px, #373737);
+        margin-bottom: 22px;
+    }
+    &__box{
+        max-width: 387px;
+    }
+    &__box_i{
+        max-width: 387px;
+        margin: -345px 0px 0px 405px;
+    }
+    &__description{ 
+        margin-top: 12px;
+        @include font (400, 16px, #000000);
+    }
+    &__date{
+        margin-top: 12px;
+        @include font (300, 14px, #8D8D8D);
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__second{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__box_w{
+        max-width: 387px;
+    }
+    &__third{
+        display: flex;
+        align-items: flex-end;
+        margin-top: -345px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__more{
+        display: flex;
+    }
+    &__next{
+        margin-top: 40px;
+        text-align: center;
+    }
+    &__btn{
+        cursor: pointer;
+        background: white;
+        border-radius: 8px;
+        border: 1px solid  #887569;
+        padding: 20px 46px;
+        @include font (400,18px,#887569);
+    }
+    &__img{
+        max-width: 389px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .blog{
+        &__title{
+            text-align: center;
+        }
+        &__box_i{
+            margin-left: 395px;
+        }
+    }
+}
+
+@media screen and (max-width:1162px) {
+    .blog{
+        &__box_i{
+            margin-left: 388px;
+        }
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .blog{
+        &__box_i{
+            margin-left: 388px;
+        }
+        &__row{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__second{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__third{
+            align-items: normal;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+        }
+        &__box_i{
+            display: none;
+        }
+        &__box{
+            margin-top: 15px;
+        }
+        &__box_w{
+            margin-top: 15px;
+        }
+        &__description{
+            text-align: center;
+        }
+        &__date{
+            text-align: center;
+        }
+    }
+    .contacts__more{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:380px) {
+    .blog{
+        img{
+            width: 375px;
+        }
+    }
+}
+
+@media screen and (max-width:362px) {
+    .blog{
+        img{
+            width: 360px;
+        }
+    }
+}
+
+@media screen and (max-width:346px) {
+    .blog{
+        img{
+            width: 340px;
+        }
+    }
+}
+
+@media screen and (max-width:332px) {
+    .blog{
+        img{
+            width: 330px;
+        }
+    }
+}
+@media screen and (max-width:324px) {
+    .blog{
+        img{
+            width: 325px;
+        }
+    }
+}

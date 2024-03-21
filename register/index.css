@@ -1,0 +1,43 @@
+.register__content {
+    background: red;
+}
+.register__content:hover{
+    background: green;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.register__title {
+
+    padding-left: 20px;
+    font-size: 30px;
+    color: orange;
+    font-style: italic;
+}
+
+.register__description {
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+    color: orange;
+}
+
+.register__group{
+    text-align: center;
+}
+.register__password{
+    outline: none;
+    height: 25px;
+}
+
+input:focus{
+    background-color: orange;
+    
+    border-radius: 30px;
+}
+
+.register__btn{
+    margin: 10px 0px 10px 0px;
+}

@@ -1,0 +1,245 @@
+.coop{
+    &__title{
+        max-width: 668px;
+        margin-top: 35px;
+        font-size: 36px;
+        font-weight: 300;
+    }
+    &__women{
+        width: 100%;
+        margin-top: -80px;
+    } 
+    &__information{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 38px;
+        @include font (300, 16px, #525252);
+        max-width: 615px;
+        line-height: 25.34px;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__photo{
+        display: flex;
+        margin-top: 47px;
+        justify-content: space-between;
+    }
+
+    &__fix{
+        width: 100%;
+    }
+    
+    &__fix_2{
+        width: 100%;
+    }
+    
+    &__fix_3{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1206px) {
+    .coop{
+        &__photo {
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+    }
+}
+
+@media screen and (max-width:1204px) {
+    .coop{
+        &__photo {
+            max-width: 386px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+        &__fix{
+            margin-bottom: 15px;
+        }
+        
+        &__fix_2{
+            margin-bottom: 15px;
+        }
+        
+        &__fix_3{
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1160px) {
+    .coop {
+        &__title{
+            margin-top: 20px;
+            padding-top: 40px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__content {
+            justify-content: center;
+            flex-wrap: wrap;
+
+        &__information{
+            
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        }
+
+        &__women {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        &__description_3 {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1136px) {
+    .coop {
+        &__description_3 {
+            margin-top: 15px;
+        }
+        
+        &__description_2 {
+            margin-top: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:620px) {
+    .coop{
+        &__description_3{
+            margin-top: 40px;
+            text-align: center;
+        }
+        &__description_2{
+            text-align: center;
+        }
+        
+        &__description{
+            text-align: center;
+        }
+        
+    }
+}
+
+@media screen and (max-width:608px) {
+    .coop{
+        &__description_3{
+            margin-top: 40px;
+            text-align: center;
+        }
+        &__description_2{
+            text-align: center;
+        }
+        
+        &__description_{
+            text-align: center;
+        }
+        
+    }
+}
+
+@media screen and (max-width:608px) {
+    .coop{
+        &__description_3{
+            margin-top: 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width:568px) {
+    .coop {
+        &__description {
+            margin-bottom: 40px;
+        }
+
+    }
+}
+
+
+@media screen and (max-width:548px) {
+    .coop {
+        &__description_3{
+            margin-top: 60px;
+        }
+    }
+}
+
+@media screen and (max-width:526px) {
+    .coop{
+        &__description_3{
+            margin-top: 70px;
+        }
+    }
+}
+
+@media screen and (max-width:442px) {
+    .coop{
+        &__description_3{
+            margin-top: 100px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:425px) {
+    .coop{
+        &__description_3{
+            margin-top: 90px;
+        }
+    }
+}
+
+
+@media screen and (max-width:410px) {
+    .coop {
+        &__description_3{
+            margin-top: 130px;
+        }
+        &__description_2{
+            margin-top: 60px;
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .coop {
+        &__description_3{
+            margin-top: 40px;
+        }
+        &__description_2{
+            margin-top: 60px;
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .coop {
+        &__description_3{
+            margin-top: 40px;
+        }
+        &__description_2{
+            margin-top: 40px;
+        }
+        &__woomen{
+            margin: 0;
+        }
+    }
+}

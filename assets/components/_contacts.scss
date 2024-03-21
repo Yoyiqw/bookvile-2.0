@@ -1,0 +1,119 @@
+.contacts {
+    &__content {
+        margin-top: 36px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__row {
+        max-width: 300px;
+    }
+
+    &__pin {
+        margin-right: 14.15px;
+    }
+
+    &__phone {
+        margin-right: 13px;
+    }
+
+    &__email {
+        margin-right: 13px;
+    }
+
+    &__info {
+        margin-top: 30px;
+    }
+
+    &__social {
+        margin-bottom: 13px;
+    }
+
+    &__clone {
+        margin-right: 13px;
+    }
+
+    &__facebook {
+        margin: 12.96px 23.09px 0px 0px;
+    }
+
+    &__mail {
+        display: flex;
+        margin-top: 23px;
+    }
+
+    &__adress {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__megacom {
+        display: flex;
+        margin-top: 67px;
+    }
+
+    &__O {
+        display: flex;
+        margin-top: 21px;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 18px;
+        color: #373737;
+    }
+
+    &__num {
+        font-weight: 500;
+        color: #606060;
+        font-size: 18px;
+    }
+
+    &__info {
+        font-weight: 500;
+        font-size: 18px;
+        color: #373737;
+    }
+    
+  &__more{
+    display: flex;
+    margin-top: 42px;
+  }
+  &__arrow{
+     margin: 0px 21px 0px 21px;
+  }
+  &__home{
+    @include font (400, 16px,  #A7A7A7)
+  }
+}
+
+@media screen and (max-width:1164px) {
+    .contacts {
+        &__content {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .contacts {
+        &__more{
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contacts {
+        &__google {
+            max-width: 298px;
+            height: 291px;
+        }
+
+        &__content {
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
